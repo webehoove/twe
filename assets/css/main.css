@@ -622,12 +622,49 @@ ul.t_and_p li p {
 	overflow: hidden;
 	z-index: 2;
 }
+.box_text {
+	overflow: hidden;
+	position: relative;
+	background-color: inherit;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 1rem;
+	padding: 1.25rem 1.15rem 0 1.15rem;
+	border: none;
+	border-radius: 3rem;
+	transform: rotate(2deg);
+	z-index: 1;
+}
 .color_box_dpink {
 	background-color: var(--primary-dpink);
+}
+.color_box_pink {
+	background-color: var(--primary-pink);
+}
+.color_box_lpink {
+	background-color: var(--primary-lpink);
+}
+.color_box_blue {
+	background-color: var(--primary-blue);
+}
+.color_box_lgreen {
+	background-color: var(--primary-lgreen);
+}
+.color_box_dorange {
+	background-color: var(--primary-dorange);
+}
+.color_box_yellow {
+	background-color: var(--primary-yellow);
 }
  @media screen and (max-width: 736px) {
 .box_banner {
 	height: 85svh;
+}
+.box_text {
+	margin: 0 0.35rem;
+	padding: 0.65rem 0.75rem 0 0.75rem;
+	border: none;
+	border-radius: 1.5rem;
 }
 }
 /* Button */

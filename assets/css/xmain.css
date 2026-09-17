@@ -100,7 +100,7 @@ ul.bottommenu_hor li {
 ul.goup li {
 	padding: 0.25rem 0.5rem 1rem 0;
 }
-.offdesk, .offdesk_title, .offdesk_all, .off_news_desk {
+.offdesk, .offdesk_all {
 	display: none;
 }
 /* Dropdown */

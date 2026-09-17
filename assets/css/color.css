@@ -44,6 +44,9 @@
  --primary-pink: rgba(255, 155, 255, 1);
 }
 :root {
+ --primary-lpink: rgba(255, 200, 255, 1);
+}
+:root {
  --primary-grey: rgba(250, 250, 245, 1);
 }
 :root {
