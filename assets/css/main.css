@@ -1875,7 +1875,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
  @media screen and (max-width: 768px) {
 .wrapper.style1 > .inner {
-	padding: 0 2rem;
+	padding: 0 0.5rem;
 }
 .wrapper.style1 > .inner.medium {
 	width: 70%;
