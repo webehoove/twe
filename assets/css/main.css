@@ -267,6 +267,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .t_color_r {
 	color: var(--primary-red);
 }
+.t_color_y {
+	color: var(--primary-yellow);
+}
 .t_color_do {
 	color: var(--primary-dorange);
 }
@@ -275,6 +278,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 .t_color_dp {
 	color: var(--primary-dpink);
+}
+.t_color_w {
+	color: var(--primary-white);
 }
 .nols_s {
 	letter-spacing: -0.25rem;
@@ -461,7 +467,7 @@ h2.special {
 	line-height: 1;
 }
 h3 {
-	font-size: 1.35rem;
+	font-size: 1.5rem;
 }
 h4 {
 	font-size: 1.35rem;
@@ -599,17 +605,18 @@ ul.t_and_p li p {
 /* Box */
 
 .box_banner {
-	overflow: hidden;
+	overflow: visible;
 	position: relative;
 	background: inherit;
-	background-position: center;
+	background: no-repeat;
+	background-position: bottom center;
 	background-size: cover;
 	object-fit: cover;
 	object-position: center;
 	justify-content: center;
 	align-items: center;
 	margin: 0;
-	padding: 0;
+	padding: 4rem 1rem 2rem 1rem;
 	width: 100%;
 	height: 100svh;
 	border: none;
@@ -656,9 +663,31 @@ ul.t_and_p li p {
 .color_box_yellow {
 	background-color: var(--primary-yellow);
 }
+ @media screen and (max-width: 768px) {
+.box_banner {
+	height: 50svh;
+	border-radius: 4rem;
+}
+.box_text {
+	margin: 0 0.35rem;
+	padding: 0.65rem 0.75rem 0 0.75rem;
+	border: none;
+	border-radius: 2rem;
+}
+}
  @media screen and (max-width: 736px) {
 .box_banner {
-	height: 85svh;
+	width: 100%;
+	height: auto;
+	padding: 4rem 0 0 0;
+	border-radius: 4rem;
+}
+.box_banner img {
+	position: relative;
+    display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
 .box_text {
 	margin: 0 0.35rem;

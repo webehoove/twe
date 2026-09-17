@@ -242,6 +242,9 @@ ul.topmenu_right img {
 .offdesk_all, .off_news_desk, .off_news_desk {
 	display: block;
 }
+.offmob_text {
+	display: none;
+}
 }
  @media screen and (max-width: 395px) {
 }
