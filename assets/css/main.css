@@ -292,6 +292,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .t_color_w {
 	color: var(--primary-white);
 }
+.nols_m {
+	letter-spacing: -0.35rem;
+}
 .nols_s {
 	letter-spacing: -0.25rem;
 }
@@ -456,11 +459,12 @@ p {
 	line-height: 1.35;
 }
 h1 {
-	font-size: 3.15rem;
-	line-height: .9;
+	font-size: 3.25rem;
+	line-height: .8;
 }
 h1.special {
 	font-size: 4.25rem;
+	line-height: .7;
 }
 h1.special_one {
 	font-size: 2.8rem;
@@ -514,6 +518,12 @@ hr.lineer {
 }
 hr.lineer_small {
 	margin: 0 0 1rem 0;
+}
+.nols_m {
+	letter-spacing: -0.35rem;
+}
+.nols_s {
+	letter-spacing: -0.1rem;
 }
 }
  @media screen and (max-width: 375px) {
@@ -608,9 +618,6 @@ ul.t_and_p li img {
 ul.t_and_p li p {
 	font-size: 1rem;
 }
-.nols_s {
-	letter-spacing: -0.05rem;
-}
 }
 /* Box */
 
@@ -696,7 +703,7 @@ ul.t_and_p li p {
 .box_banner {
 	width: 100%;
 	height: auto;
-	padding: 4.15rem 0 0 0;
+	padding: 4rem 0 0 0;
 	border-radius: 4rem;
 }
 .box_banner img {
