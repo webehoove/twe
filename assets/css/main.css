@@ -251,11 +251,11 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 .blk_tx {
 	font-family: 'TW Blk', Helvetica, sans-serif;
-	letter-spacing: -0.15rem;
+	letter-spacing: -0.25rem;
 }
 .xblk_tx {
 	font-family: 'TW Xblk', Helvetica, sans-serif;
-	letter-spacing: -0.15rem;
+	letter-spacing: -0.25rem;
 }
 .text_and_play {
 	font-family: 'TWE Text and Play', Helvetica, sans-serif;
@@ -296,13 +296,13 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	letter-spacing: -0.35rem;
 }
 .nols_s {
-	letter-spacing: -0.25rem;
+	letter-spacing: -0.15rem;
 }
 .nols {
 	letter-spacing: 0;
 }
 p {
-	font-size: 1.35rem;
+	font-size: 1.75rem;
 	line-height: 1.2;
 }
 h1 {
@@ -464,7 +464,7 @@ h1 {
 }
 h1.special {
 	font-size: 4.25rem;
-	line-height: .7;
+	line-height: .8;
 }
 h1.special_one {
 	font-size: 2.8rem;
@@ -633,7 +633,7 @@ ul.t_and_p li p {
 	justify-content: center;
 	align-items: center;
 	margin: 0;
-	padding: 6rem 4rem 4rem 4rem;
+	padding: 5rem;
 	width: 100%;
 	height: auto;
 	border: none;
@@ -827,6 +827,7 @@ button.large, .button.large, .button.large_a_red, .button.large_a_npurple {
     font-size: 1.45rem;
 	line-height: 3.25;
 	padding: 0 1.3rem;
+	border-radius: 1.5rem;
 }
 button.large_a, .button.large_a, .button.large_a_dred, .button.large_a_npurple {
 	width: 100%;
