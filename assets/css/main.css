@@ -716,6 +716,12 @@ ul.t_and_p li p {
 .color_box_yellow {
 	background-color: var(--primary-yellow);
 }
+.color_box_grey {
+	background-color: var(--primary-grey);
+}
+.color_box_grey_100 {
+	background-color: var(--primary-grey-100);
+}
 .noborderradus {
 	border-radius: 0;
 }
