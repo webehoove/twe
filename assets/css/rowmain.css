@@ -885,13 +885,13 @@
 }
 .row {
 	margin-top: 0;
-	margin-left: -1.5rem;
+	margin-left: -2rem;
 }
 .row > * {
-	padding: 1.5rem 0 0 1.5rem;
+	padding: 2rem 0 0 2rem;
 }
 .row.gtr-uniform {
-	margin-top: -1.5rem;
+	margin-top: -2em;
 }
 .row.gtr-uniform > * {
 	padding-top: 0;
@@ -1070,13 +1070,13 @@
 }
 .row {
 	margin-top: 0;
-	margin-left: -1rem;
+	margin-left: -1.35rem;
 }
 .row > * {
-	padding: 1rem 0 0 1rem;
+	padding: 1.35rem 0 0 1.35rem;
 }
 .row.gtr-uniform {
-	margin-top: -1rem;
+	margin-top: -1.35rem;
 }
 .row.gtr-uniform > * {
 	padding-top: 0;
@@ -1255,13 +1255,13 @@
 }
 .row {
 	margin-top: 0;
-	margin-left: -1rem;
+	margin-left: -1.35rem;
 }
 .row > * {
-	padding: 1rem 0 0 1rem;
+	padding: 1.35rem 0 0 1.35rem;
 }
 .row.gtr-uniform {
-	margin-top: -1rem;
+	margin-top: -1.35rem;
 }
 .row.gtr-uniform > * {
 	padding-top: 0;
@@ -1440,13 +1440,13 @@
 }
 .row {
 	margin-top: 0;
-	margin-left: -1rem;
+	margin-left: -1.35rem;
 }
 .row > * {
-	padding: 1rem 0 0 1rem;
+	padding: 1.35rem 0 0 1.35rem;
 }
 .row.gtr-uniform {
-	margin-top: -1rem;
+	margin-top: -1.35rem;
 }
 .row.gtr-uniform > * {
 	padding-top: 0;

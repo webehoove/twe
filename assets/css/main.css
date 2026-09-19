@@ -470,8 +470,8 @@ hr.block_start {
 }
  @media screen and (max-width: 736px) {
 p {
-	font-size: 1.25rem;
-	line-height: 1.35;
+	font-size: 1.5rem;
+	line-height: 1.2;
 }
 h1 {
 	font-size: 3.25rem;
@@ -637,9 +637,8 @@ ul.t_and_p li p {
 	object-position: center;
 	justify-content: center;
 	margin: 0;
-	padding: 3rem;
+	padding: 3.5rem 3rem 3rem 3rem;
 	border-radius: 4rem;
-	box-shadow: inset 0 0 0 6px var(--primary-lgreen);
 	overflow: hidden;
 	z-index: 2;
 }
