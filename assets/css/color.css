@@ -52,6 +52,9 @@
 :root {
  --primary-grey-100: rgba(250, 245, 240, 1);
 }
+:root {
+ --primary-grey-150: rgba(245, 235, 220, 1);
+}
 
 
 

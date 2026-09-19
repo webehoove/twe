@@ -653,8 +653,9 @@ ul.t_and_p li p {
 .box {
 	position: relative;
 	width: 100%;
-	height: auto;
-	display: block;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 	object-position: center;
 	justify-content: center;
 	margin: 0;
@@ -742,6 +743,9 @@ ul.t_and_p li p {
 }
 .color_box_grey_100 {
 	background-color: var(--primary-grey-100);
+}
+.color_box_grey_150 {
+	background-color: var(--primary-grey-150);
 }
 .noborderradus {
 	border-radius: 0;
