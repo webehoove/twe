@@ -21,7 +21,7 @@
 	z-index: 3;
 }
 .logotype_lockup_b {
-	width: 15rem;
+	width: 25rem;
 }
 ul.topmenu {
 	font-size: 1.35rem;
@@ -167,7 +167,7 @@ ul.goup li {
 }
  @media screen and (max-width: 1366px) {
 .logotype_lockup_b {
-	width: 14rem;
+	width: 18rem;
 }
 }
  @media screen and (max-width: 1180px) {
@@ -216,7 +216,7 @@ ul.topmenu_right {
 	width: 10rem;
 }
 .logotype_lockup_b {
-	width: 12rem;
+	width: 100%;
 }
 ul.bottommenu {
 	padding-bottom: 2rem;
