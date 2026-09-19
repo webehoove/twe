@@ -293,18 +293,15 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .t_color_w {
 	color: var(--primary-white);
 }
-.nols_m {
-	letter-spacing: -0.35rem;
-}
 .nols_s {
-	letter-spacing: -0.15rem;
+	letter-spacing: -0.1rem;
 }
 .nols {
 	letter-spacing: 0;
 }
 p {
-	font-size: 1.75rem;
-	line-height: 1.2;
+	font-size: 1.5rem;
+	line-height: 1.1;
 }
 h1 {
 	font-size: 6.5rem;
@@ -327,6 +324,10 @@ h2 {
 	line-height: 1;
 }
 h2.special {
+	font-size: 2.5rem;
+	line-height: .9;
+}
+h2.special_one {
 	font-size: 2.35rem;
 	line-height: .9;
 }
@@ -460,10 +461,7 @@ hr.block_start {
 }
  @media screen and (max-width: 1080px) {
 }
- @media screen and (max-width: 736px) {
-.nols_m {
-	letter-spacing: -0.2rem;
-}
+ @media screen and (max-width: 768px) {
 .nols_s {
 	letter-spacing: -0.1rem;
 }
@@ -492,6 +490,9 @@ h2 {
 	line-height: 1.1;
 }
 h2.special {
+	font-size: 2.7rem;
+}
+h2.special_one {
 	font-size: 2.5rem;
 }
 h3 {
