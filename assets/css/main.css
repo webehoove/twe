@@ -468,7 +468,7 @@ hr.block_start {
 }
  @media screen and (max-width: 736px) {
 p {
-	font-size: 1.65rem;
+	font-size: 1.5rem;
 	line-height: 1.1;
 }
 h1 {
