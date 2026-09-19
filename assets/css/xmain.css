@@ -59,18 +59,21 @@ ul.topmenu li:first-child {
 }
 ul.bottommenu {
 	list-style: none;
-	line-height: 1.2;
 	padding-bottom: 2rem;
 	margin: 0;
 }
 ul.bottommenu li {
 	font-size: 1.35rem;
+	line-height: 1.5;
 	display: block;
-	margin-bottom: 1rem;
+}
+ul.bottommenu li.title {
+	font-size: 1.5rem;
+	line-height: 2;
+	display: block;
 }
 ul.bottommenu_hor {
-	color: var(--primary-thd);
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -221,12 +224,12 @@ ul.bottommenu {
 ul.bottommenu li {
 	font-size: 1.5rem;
 	line-height: 1.5;
-	margin-bottom: 1rem;
+	margin-bottom: 0;
 }
-ul li.bottommenu_big {
+ul.bottommenu li.title {
 	font-size: 1.8rem;
-	line-height: 1;
-	margin-bottom: 2rem;
+	line-height: 2;
+	display: block;
 }
 ul.bottommenu_hor li {
 	display: block;

@@ -475,7 +475,7 @@ h1 {
 	font-size: 3.25rem;
 }
 h1.special {
-	font-size: 4.25rem;
+	font-size: 4.15rem;
 }
 h1.special_one {
 	font-size: 2.8rem;
@@ -489,6 +489,7 @@ h2 {
 }
 h2.special {
 	font-size: 2.7rem;
+	line-height: .8;
 }
 h2.special_one {
 	font-size: 2.5rem;
@@ -498,7 +499,7 @@ h3 {
 }
 h4 {
 	font-size: 1.35rem;
-	line-height: 1;
+	line-height: 1.1;
 }
 h5 {
 	font-size: 1.35rem;
@@ -552,7 +553,7 @@ a:active, a:visited:active {
 	display: inline-block;
 	position: relative;
 	text-decoration: none;
-	padding-bottom: 0.25rem;
+	padding-bottom: 0.1rem;
 }
 .hover_underline::after {
 	content: '';
@@ -573,7 +574,7 @@ a:active, a:visited:active {
 	display: inline-block;
 	position: relative;
 	text-decoration: none;
-	padding-bottom: 0.25rem;
+	padding-bottom: 0.1rem;
 }
 .hover_underline_off::after {
 	content: '';
@@ -588,7 +589,7 @@ a:active, a:visited:active {
 	transition: transform 0.25s ease-out;
 }
 .hover_underline_off:hover::after {
-	transform: scaleX(o);
+	transform: scaleX(0);
 }
 /* Text & Play */
 
