@@ -301,7 +301,8 @@ body {
           <hr class="mini">
           <span class="image fit"><img src="imgs/tw_run_cat.svg" onContextMenu="return false;" alt="Тини Вини | Интенсив по чтению" /></span>
           <hr class="block1">
-          <h1 class="special blk_tx" style="line-height:.9;">Для детей<br>1-2 класса</h1>
+          <h1 class="special blk_tx" style="line-height:.9;">Для детей<br>
+            1-2 класса</h1>
           <hr class="mini">
           <h3 class="md_tx">Знакомимся с английским языком через игры, учимся понимать простые слова и фразы, развиваем внимание, память и интерес к занятиям.</h3>
           <hr class="block1">
@@ -395,7 +396,8 @@ body {
           <hr class="block1">
           <span class="image fit"><img src="imgs/tw_run_cat_blue.svg" onContextMenu="return false;" alt="Тини Вини | К школе готов" /></span>
           <hr class="block1">
-          <h1 class="special blk_tx" style="line-height:.9;">Для детей<br>1-2 класса</h1>
+          <h1 class="special blk_tx" style="line-height:.9;">Для детей<br>
+            1-2 класса</h1>
           <hr class="mini">
           <h3 class="md_tx">Знакомимся с английским языком через игры, учимся понимать простые слова и фразы, развиваем внимание, память и интерес к занятиям.</h3>
           <hr class="block1">
@@ -552,7 +554,9 @@ body {
   <section class="wrapper style1 invert color_dblue align-left">
     <div class="inner">
       <div class="row">
-        <div class="col-12 off-12-small"> <hr class="block_end"> </div>
+        <div class="col-12 off-12-small">
+          <hr class="block_end">
+        </div>
         <div class="col-5 col-12-small">
           <div class="logotype_lockup_b logo-container"> <a href="https://webehoove.github.io/teenyweeny/"><svg id="animated-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1607 913.3" width="100%">
             <style>
@@ -741,7 +745,10 @@ body {
               <h2 class="special_one"><a href="https://webehoove.github.io/teenyweeny/brand-experience/">Контакты</a></h2>
             </li>
             <li class="title xbd_tx nols">Наш адрес</li>
-            <li style="margin-bottom:3rem;">Санкт–Петербург,<br>Васильевский Остров,<br>Эко–Лофт, пр. Кима 6,<br>кабинет 351</li>
+            <li style="margin-bottom:3rem;">Санкт–Петербург,<br>
+              Васильевский Остров,<br>
+              Эко–Лофт, пр. Кима 6,<br>
+              кабинет 351</li>
             <li class="title xbd_tx nols">Звоните</li>
             <li style="margin-bottom:2rem;"><a href="tel:+79213305710" class="hover_underline">+7 (921) 330 57 10</a></li>
             <li class="title xbd_tx nols">Мы работаем</li>
@@ -880,20 +887,24 @@ for (i = 0; i < coll.length; i++) {
 	}
 </script> 
 <script>
-    let lastScrollTop = 0;
-    const logo = document.getElementById('animated-logo');
+  let lastScrollTop = 0;
+  const logo = document.getElementById('animated-logo');
+  
+  const threshold = 15; 
 
-    window.addEventListener('scroll', function() {
-      let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+  window.addEventListener('scroll', function() {
+    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
 
+    if (Math.abs(currentScroll - lastScrollTop) > threshold) {
       if (currentScroll > lastScrollTop) {
         logo.classList.add('scroll-down');
       } else {
         logo.classList.remove('scroll-down');
       }
 
-      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; 
-    }, false);
-  </script>
+      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+    }
+  }, false);
+</script>
 </body>
 </html>
