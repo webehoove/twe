@@ -21,6 +21,7 @@
 <link rel="stylesheet" href="assets/css/rowmain.css" />
 <link rel="stylesheet" href="assets/css/xmain.css" />
 <link rel="stylesheet" href="assets/css/topmenu.css" />
+<link rel="stylesheet" href="assets/css/gallery.css" />
 <link rel="stylesheet" href="assets/css/color.css" />
 <noscript>
 <link rel="stylesheet" href="assets/css/noscript.css" />
@@ -500,10 +501,10 @@
     </div>
   </section>
   
-  <!-- BRAND EXPERIANCE -->
+  <!-- SOCIAL MEDIA -->
   
-  <section class="wrapper style1 color_pink align-left">
-    <div class="inner">
+  <section class="wrapper style1 color_pink align-center">
+    <div class="inner medium">
       <div class="row">
         <div class="col-12 col-12-small">
           <hr class="block1">
@@ -513,6 +514,8 @@
         <div class="col-12 col-12-small">
           <h1 class="special_one blk_tx nols_s" style="line-height:0.9">Мы в соцсетях</h1>
           <hr class="mini">
+          <h3 class="md_tx">Узнавайте больше о моделях и особенностях производства, вдохновляйтесь яркими идеями вместе с нами</h3>
+          <hr class="mini">
           <ul class="sm">
             <li><a href="https://vk.ru/english4younglearners" target="new" name="VK"><img src="imgs/icons/vk_icon_b.svg" onContextMenu="return false;" alt="Тини Вини | VK" /></a></li>
             <li><a href="https://t.me/teenyweenyenglish" target="new" name="Telegram"><img src="imgs/icons/teleg_icon_b.svg" onContextMenu="return false;" alt="Тини Вини | Telegram" /></a></li>
@@ -520,14 +523,39 @@
           <hr class="mini">
         </div>
       </div>
+      </div>
+      <div class="inner">
       <div class="row">
-        <div class="col-3 col-12-small">
-          <span class="image fit"><a href="https://vk.ru/english4younglearners" target="new" name="VK"><img src="imgs/sm/tw_vk_img_01.jpg" onContextMenu="return false;" alt="Тини Вини | VK" /></a></span>
+        <div class="col-12 col-12-small">
+          <div class="gallery-container">
+            <div class="gallery-viewport" id="galleryViewport">
+              <div class="gallery-track" id="galleryTrack">
+                <div class="gallery-item ratio-1-1"><img src="imgs/sm/tw_vk_img_01.jpg" alt="1" draggable="false"></div>
+                <div class="gallery-item ratio-4-3"><img src="imgs/sm/tw_vk_img_02.jpg" alt="2" draggable="false"></div>
+                <div class="gallery-item ratio-3-4"><img src="imgs/sm/tw_vk_img_02.jpg" alt="3" draggable="false"></div>
+                <div class="gallery-item ratio-1-1"><img src="imgs/sm/tw_vk_img_02.jpg" alt="4" draggable="false"></div>
+                <div class="gallery-item ratio-4-3"><img src="imgs/sm/tw_vk_img_02.jpg" alt="5" draggable="false"></div>
+                <div class="gallery-item ratio-3-4"><img src="imgs/sm/tw_vk_img_02.jpg" alt="6" draggable="false"></div>
+                <div class="gallery-item ratio-1-1"><img src="imgs/sm/tw_vk_img_02.jpg" alt="7" draggable="false"></div>
+                <div class="gallery-item ratio-4-3"><img src="imgs/sm/tw_vk_img_02.jpg" alt="8" draggable="false"></div>
+                <div class="gallery-item ratio-3-4"><img src="imgs/sm/tw_vk_img_02.jpg" alt="9" draggable="false"></div>
+                <div class="gallery-item ratio-1-1"><img src="imgs/sm/tw_vk_img_02.jpg" alt="10" draggable="false"></div>
+              </div>
+            </div>
+            <ul class="gallery-btn-c">
+              <li>
+                <button class="gallery-btn prev" id="prevBtn" aria-label="Назад"><img src="imgs/icons/icon_arrow_left_but_db.svg" onContextMenu="return false;" alt="Назад" /></button>
+              </li>
+              <li>
+                <button class="gallery-btn next" id="nextBtn" aria-label="Вперед"><img src="imgs/icons/icon_arrow_right_but_db.svg" onContextMenu="return false;" alt="Вперед" /></button>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-12-small">
-          <hr class="block2">
+          <hr class="block1">
         </div>
       </div>
     </div>
@@ -544,7 +572,8 @@
         <div class="col-5 col-12-small">
           <div class="logotype_lockup_b logo-container"> <a href="https://webehoove.github.io/teenyweeny/"><svg id="animated-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1607 913.3" width="100%">
             <style>
-             .st0{fill:var(--primary-blue);}
+             .st0{fill:var(--primary-white);}
+			 .st1{fill:var(--primary-white);}
             </style>
             
             <!-- 1 -->
@@ -583,46 +612,52 @@
                 </g>
               </g>
               <g>
-                <path class="st0" d="M38.3,797.4h20.9L97,895.1H78.9l-6.3-17.2H24.3L18,895.1H0L38.3,797.4z M67.2,863l-18.6-50l-18.8,50H67.2z"/>
-                <path class="st0" d="M161.9,867.2h-40.3v27.9h-16.9v-72.2h16.9v29.6h40.3v-29.6h16.9v72.2h-16.9V867.2z"/>
-                <path class="st0" d="M194.1,822.9h55.3v14.7H211v57.5h-16.9V822.9z"/>
-                <path class="st0" d="M244.8,895.7V881c2.1,0.4,4.6,1,6.8,1c6.6,0,9.9-5.7,9.9-23.3V823h65.6v72.2h-16.9v-57.5h-32.4v23.6
-		c0,27.2-8.9,35.9-23,35.9C250.5,897.1,247.2,896.2,244.8,895.7z"/>
-                <path class="st0" d="M342.5,822.9h16.9v32.9l-0.6,18.4h0.3l42-51.4h17.5V895h-16.9v-32.9l0.6-18.4H402l-42,51.4h-17.4v-72.2H342.5z
-		"/>
-                <path class="st0" d="M433.8,822.9h16.9v32.9l-0.6,18.4h0.3l42-51.4h17.4V895h-16.9v-32.9l0.6-18.4h-0.3l-42,51.4h-17.4V822.9z
-		 M450,808.8v-13.7c8.4,4.3,16.1,5.9,23.6,5.9c7.7,0,15.4-1.5,23.6-5.9v13.7c-6.1,3.2-15.1,5.4-23.6,5.4
-		C465.1,814.3,456.3,812.1,450,808.8z"/>
-                <path class="st0" d="M520.9,859.1c0-22.3,17-38.1,43.6-38.1c8.2,0,15.1,1,22.6,2.9V839c-7.7-2-14.9-3.1-22.6-3.1
-		c-17,0-26.2,8.5-26.2,23.3c0,14,9.4,22.9,26.1,22.9c8.5,0,16.6-1.3,23.2-3.3v15.1c-6.3,2-15.2,3.2-24.3,3.2
-		C538.1,897.1,520.9,880.9,520.9,859.1z"/>
-                <path class="st0" d="M628.3,866.8h-11.9v28.3h-16.9v-72.2h16.9v30.2h11.4c14.2,0,21.4-12.6,22.5-30.2h17.2
-		c-1,19.3-9.1,32-26.1,35.7v0.3l6.4,1c9.8,1.4,14.9,6.8,18.4,15.6l8.4,19.5h-19.4l-5.9-15.8C645.9,870.3,638.3,866.8,628.3,866.8z"
+                <path class="st1" d="M32.483,770.908h32.614l32.092,91.318H70.837l-4.175-13.567H30.657l-4.175,13.567H0L32.483,770.908z
+		 M61.053,829.482L48.66,790.345l-12.524,39.137H61.053z"/>
+                <path class="st1" d="M153.417,839.918h-25.7v22.308H102.54v-68.228h25.178v25.178h25.7v-25.178h25.177v68.228h-25.177V839.918z"/>
+                <path class="st1" d="M190.338,793.998h58.052v20.612h-32.874v47.616h-25.178V793.998z"/>
+                <path class="st1" d="M245.262,862.487v-21.264c1.696,0.391,3.653,0.783,5.74,0.783c5.218,0,8.61-4.305,8.61-18.525v-29.483h69.141
+		v68.228h-25.178V814.61h-21.003v17.09c0,24.004-8.741,32.353-23.873,32.353C252.828,864.052,247.741,863.139,245.262,862.487z"/>
+                <path class="st1" d="M340.495,793.998h25.178v20.481l-1.174,16.959h0.261l28.83-37.44h24.395v68.228h-25.178v-20.612l1.304-16.959
+		h-0.261l-28.83,37.571h-24.525V793.998z"/>
+                <path class="st1" d="M429.858,793.998h25.178v20.481l-1.174,16.959h0.261l28.83-37.44h24.395v68.228H482.17v-20.612l1.304-16.959
+		h-0.261l-28.83,37.571h-24.525V793.998z M446.817,781.866v-16.307c8.219,3.914,15.524,5.479,23.612,5.479
+		c8.088,0,15.394-1.566,23.612-5.479v16.307c-6.523,3.001-14.872,4.696-23.612,4.696
+		C461.689,786.562,453.34,784.866,446.817,781.866z"/>
+                <path class="st1" d="M515.96,828.177c0-21.525,16.568-36.005,43.181-36.005c8.219,0,16.046,1.174,22.83,3v21.264
+		c-7.697-1.566-16.046-2.478-22.569-2.478c-11.741,0-18.003,5.087-18.003,14.219c0,8.871,6.392,14.22,18.133,14.22
+		c7.044,0,15.915-1.044,22.83-2.74v21.264c-6.001,1.827-15.524,3.131-24.265,3.131C532.788,864.052,515.96,849.441,515.96,828.177z"
 		/>
-                <path class="st0" d="M681.7,822.9h16.9v32.9l-0.6,18.4h0.3l42-51.4h17.4V895h-16.9v-32.9l0.6-18.4h-0.3l-42,51.4h-17.4L681.7,822.9
-		L681.7,822.9z"/>
-                <path class="st0" d="M773,822.9h16.9v32.9l-0.6,18.4h0.3l42-51.4H849V895h-16.9v-32.9l0.6-18.4h-0.3l-42,51.4H773V822.9z
-		 M789.2,808.8v-13.7c8.4,4.3,16.1,5.9,23.6,5.9c7.7,0,15.4-1.5,23.6-5.9v13.7c-6.1,3.2-15.1,5.4-23.6,5.4
-		C804.3,814.3,795.5,812.1,789.2,808.8z"/>
-                <path class="st0" d="M891.3,880.2h9.6c3.2-6.3,5-13.7,5-24.7V823h66.9v57.2h10.7v33.1h-16.9v-18.1h-58.5v18.1h-16.9v-33.1H891.3z
-		 M956.2,880.6v-43.4h-34.1v20.1c0,10.1-1.5,17.3-4,23.3H956.2z"/>
-                <path class="st0" d="M988.3,895.7V881c2.1,0.4,4.6,1,6.8,1c6.6,0,9.9-5.7,9.9-23.3V823h65.6v72.2h-16.9v-57.5h-32.4v23.6
-		c0,27.2-8.9,35.9-23,35.9C994,897.1,990.7,896.2,988.3,895.7z"/>
-                <path class="st0" d="M1103.2,865.8l5.6-0.8v-0.3c-16.8-0.8-25.4-8.1-25.4-20.1c0-14.1,10.3-21.6,33.6-21.6h33.8v72.2h-16.9v-25
-		h-9.8c-11.7,0-16.6,2.8-20.1,10.9l-6.1,14.1h-18.3l8-17.6C1091.3,869.3,1095.3,866.9,1103.2,865.8z M1133.9,858.8v-22.6h-15.1
-		c-13.4,0-18.7,2.5-18.7,10.6c0,8.7,6.1,12,20.9,12H1133.9z"/>
-                <path class="st0" d="M1193.1,880.2h9.6c3.2-6.3,5-13.7,5-24.7V823h66.9v57.2h10.7v33.1h-16.9v-18.1h-58.5v18.1H1193v-33.1H1193.1z
-		 M1258,880.6v-43.4h-34.1v20.1c0,10.1-1.5,17.3-4,23.3H1258z"/>
-                <path class="st0" d="M1288.5,859c0-22.6,15.9-38,40.1-38c24.7,0,38.4,14.9,38.4,38.7l-59.9,8.2c3.1,9.5,11.3,14.8,25.7,14.8
-		c9.6,0,19.3-2.1,28.9-5.6v14.5c-9.1,3.5-17.9,5.4-30,5.4C1304.5,897.1,1288.5,881.3,1288.5,859z M1350.2,852.1
-		c-1.3-11-8.4-16.8-21.2-16.8c-15.2,0-23,8.1-23.2,22.9L1350.2,852.1z"/>
-                <path class="st0" d="M1395.9,837.6h-26.5v-14.7h70.1v14.7h-26.7v57.5h-16.9V837.6z"/>
-                <path class="st0" d="M1442.1,859c0-22.6,15.9-38,40.1-38c24.7,0,38.4,14.9,38.4,38.7l-59.9,8.2c3.1,9.5,11.3,14.8,25.7,14.8
-		c9.6,0,19.3-2.1,28.9-5.6v14.5c-9.1,3.5-17.9,5.4-30,5.4C1458,897.1,1442.1,881.3,1442.1,859z M1503.8,852.1
-		c-1.3-11-8.4-16.8-21.2-16.8c-15.2,0-23,8.1-23.2,22.9L1503.8,852.1z"/>
-                <path class="st0" d="M1531,822.9h16.9v32.9l-0.6,18.4h0.3l42-51.4h17.4V895h-16.9v-32.9l0.6-18.4h-0.3l-42,51.4H1531V822.9z
-		 M1547.2,808.8v-13.7c8.4,4.3,16.1,5.9,23.6,5.9c7.7,0,15.4-1.5,23.6-5.9v13.7c-6.1,3.2-15.1,5.4-23.6,5.4
-		C1562.3,814.3,1553.5,812.1,1547.2,808.8z"/>
+                <path class="st1" d="M622.934,838.092h-5.74v24.134h-25.178v-68.228h25.178v26.874h5.218c10.436,0,15.263-10.958,15.785-26.874
+		h26.352c-0.652,17.742-8.349,31.179-27.657,34.049v0.261l9.393,1.044c9.393,1.174,14.089,6.522,16.959,15.263l6.131,17.611h-28.308
+		l-3.914-13.828C634.936,840.831,630.239,838.092,622.934,838.092z"/>
+                <path class="st1" d="M674.987,793.998h25.178v20.481l-1.174,16.959h0.261l28.83-37.44h24.395v68.228h-25.178v-20.612l1.305-16.959
+		h-0.261l-28.83,37.571h-24.525V793.998z"/>
+                <path class="st1" d="M764.35,793.998h25.178v20.481l-1.174,16.959h0.261l28.83-37.44h24.395v68.228h-25.178v-20.612l1.305-16.959
+		h-0.261l-28.83,37.571H764.35V793.998z M781.31,781.866v-16.307c8.219,3.914,15.524,5.479,23.612,5.479s15.394-1.566,23.613-5.479
+		v16.307c-6.523,3.001-14.872,4.696-23.613,4.696S787.832,784.866,781.31,781.866z"/>
+                <path class="st1" d="M881.761,840.57h10.045c2.609-5.218,4.044-11.48,4.044-20.22v-26.352h69.663v46.572h11.22v39.137h-25.178
+		v-17.481h-44.615v17.481h-25.178V840.57z M941.379,841.875v-28.7h-22.438v13.306c0,6.392-1.044,11.349-2.74,15.393H941.379z"/>
+                <path class="st1" d="M981.691,862.487v-21.264c1.696,0.391,3.653,0.783,5.74,0.783c5.218,0,8.61-4.305,8.61-18.525v-29.483h69.141
+		v68.228h-25.178V814.61h-21.003v17.09c0,24.004-8.741,32.353-23.874,32.353C989.257,864.052,984.169,863.139,981.691,862.487z"/>
+                <path class="st1" d="M1093.36,833.917l7.305-0.783v-0.261c-16.437-0.783-25.047-7.175-25.047-19.177
+		c0-12.524,9.654-19.83,31.831-19.83h39.266v68.358h-25.178v-22.569h-5.87c-7.697,0-11.089,2.74-13.698,9.393l-4.957,13.176h-25.83
+		l6.784-16.959C1081.228,837.178,1085.533,834.961,1093.36,833.917z M1121.538,827.133v-16.176h-10.045
+		c-8.48,0-12.393,1.957-12.393,7.827c0,5.871,4.175,8.349,13.437,8.349H1121.538z"/>
+                <path class="st1" d="M1186.637,840.57h10.045c2.609-5.218,4.044-11.48,4.044-20.22v-26.352h69.663v46.572h11.219v39.137h-25.178
+		v-17.481h-44.615v17.481h-25.178V840.57z M1246.254,841.875v-28.7h-22.438v13.306c0,6.392-1.044,11.349-2.74,15.393H1246.254z"/>
+                <path class="st1" d="M1284.739,827.916c0-21.917,15.002-35.744,39.658-35.744c24.525,0,38.223,13.046,38.876,35.744l-51.66,6.654
+		c2.609,6.522,9.132,10.045,19.96,10.045c8.609,0,18.002-1.956,26.873-5.218v19.308c-10.045,3.653-19.046,5.349-30.396,5.349
+		C1300.263,864.052,1284.739,850.094,1284.739,827.916z M1339.661,823.22c-0.783-7.697-5.349-11.61-14.089-11.61
+		c-10.176,0-15.263,5.479-15.263,15.524v0.261L1339.661,823.22z"/>
+                <path class="st1" d="M1389.496,814.479h-23.612v-20.612h72.272v20.612h-23.482v47.747h-25.178V814.479z"/>
+                <path class="st1" d="M1441.029,827.916c0-21.917,15.002-35.744,39.658-35.744c24.525,0,38.223,13.046,38.876,35.744l-51.66,6.654
+		c2.609,6.522,9.132,10.045,19.96,10.045c8.609,0,18.002-1.956,26.873-5.218v19.308c-10.045,3.653-19.046,5.349-30.396,5.349
+		C1456.553,864.052,1441.029,850.094,1441.029,827.916z M1495.95,823.22c-0.783-7.697-5.349-11.61-14.089-11.61
+		c-10.176,0-15.263,5.479-15.263,15.524v0.261L1495.95,823.22z"/>
+                <path class="st1" d="M1527.651,793.998h25.178v20.481l-1.174,16.959h0.261l28.83-37.44h24.395v68.228h-25.178v-20.612l1.305-16.959
+		h-0.261l-28.83,37.571h-24.525V793.998z M1544.61,781.866v-16.307c8.219,3.914,15.524,5.479,23.612,5.479
+		s15.394-1.566,23.613-5.479v16.307c-6.523,3.001-14.872,4.696-23.613,4.696C1559.482,786.562,1551.133,784.866,1544.61,781.866z"/>
               </g>
             </g>
             
@@ -656,46 +691,52 @@
                 </g>
               </g>
               <g>
-                <path class="st0" d="M38.3,797.4h20.9L97,895.1H78.9l-6.3-17.2H24.3L18,895.1H0L38.3,797.4z M67.2,863l-18.6-50l-18.8,50H67.2z"/>
-                <path class="st0" d="M161.9,867.2h-40.3v27.9h-16.9v-72.2h16.9v29.6h40.3v-29.6h16.9v72.2h-16.9V867.2z"/>
-                <path class="st0" d="M194.1,822.9h55.3v14.7H211v57.5h-16.9V822.9z"/>
-                <path class="st0" d="M244.8,895.7V881c2.1,0.4,4.6,1,6.8,1c6.6,0,9.9-5.7,9.9-23.3V823h65.6v72.2h-16.9v-57.5h-32.4v23.6
-		c0,27.2-8.9,35.9-23,35.9C250.5,897.1,247.2,896.2,244.8,895.7z"/>
-                <path class="st0" d="M342.5,822.9h16.9v32.9l-0.6,18.4h0.3l42-51.4h17.5V895h-16.9v-32.9l0.6-18.4H402l-42,51.4h-17.4v-72.2H342.5z
-		"/>
-                <path class="st0" d="M433.8,822.9h16.9v32.9l-0.6,18.4h0.3l42-51.4h17.4V895h-16.9v-32.9l0.6-18.4h-0.3l-42,51.4h-17.4V822.9z
-		 M450,808.8v-13.7c8.4,4.3,16.1,5.9,23.6,5.9c7.7,0,15.4-1.5,23.6-5.9v13.7c-6.1,3.2-15.1,5.4-23.6,5.4
-		C465.1,814.3,456.3,812.1,450,808.8z"/>
-                <path class="st0" d="M520.9,859.1c0-22.3,17-38.1,43.6-38.1c8.2,0,15.1,1,22.6,2.9V839c-7.7-2-14.9-3.1-22.6-3.1
-		c-17,0-26.2,8.5-26.2,23.3c0,14,9.4,22.9,26.1,22.9c8.5,0,16.6-1.3,23.2-3.3v15.1c-6.3,2-15.2,3.2-24.3,3.2
-		C538.1,897.1,520.9,880.9,520.9,859.1z"/>
-                <path class="st0" d="M628.3,866.8h-11.9v28.3h-16.9v-72.2h16.9v30.2h11.4c14.2,0,21.4-12.6,22.5-30.2h17.2
-		c-1,19.3-9.1,32-26.1,35.7v0.3l6.4,1c9.8,1.4,14.9,6.8,18.4,15.6l8.4,19.5h-19.4l-5.9-15.8C645.9,870.3,638.3,866.8,628.3,866.8z"
+                <path class="st1" d="M32.483,770.908h32.614l32.092,91.318H70.837l-4.175-13.567H30.657l-4.175,13.567H0L32.483,770.908z
+		 M61.053,829.482L48.66,790.345l-12.524,39.137H61.053z"/>
+                <path class="st1" d="M153.417,839.918h-25.7v22.308H102.54v-68.228h25.178v25.178h25.7v-25.178h25.177v68.228h-25.177V839.918z"/>
+                <path class="st1" d="M190.338,793.998h58.052v20.612h-32.874v47.616h-25.178V793.998z"/>
+                <path class="st1" d="M245.262,862.487v-21.264c1.696,0.391,3.653,0.783,5.74,0.783c5.218,0,8.61-4.305,8.61-18.525v-29.483h69.141
+		v68.228h-25.178V814.61h-21.003v17.09c0,24.004-8.741,32.353-23.873,32.353C252.828,864.052,247.741,863.139,245.262,862.487z"/>
+                <path class="st1" d="M340.495,793.998h25.178v20.481l-1.174,16.959h0.261l28.83-37.44h24.395v68.228h-25.178v-20.612l1.304-16.959
+		h-0.261l-28.83,37.571h-24.525V793.998z"/>
+                <path class="st1" d="M429.858,793.998h25.178v20.481l-1.174,16.959h0.261l28.83-37.44h24.395v68.228H482.17v-20.612l1.304-16.959
+		h-0.261l-28.83,37.571h-24.525V793.998z M446.817,781.866v-16.307c8.219,3.914,15.524,5.479,23.612,5.479
+		c8.088,0,15.394-1.566,23.612-5.479v16.307c-6.523,3.001-14.872,4.696-23.612,4.696
+		C461.689,786.562,453.34,784.866,446.817,781.866z"/>
+                <path class="st1" d="M515.96,828.177c0-21.525,16.568-36.005,43.181-36.005c8.219,0,16.046,1.174,22.83,3v21.264
+		c-7.697-1.566-16.046-2.478-22.569-2.478c-11.741,0-18.003,5.087-18.003,14.219c0,8.871,6.392,14.22,18.133,14.22
+		c7.044,0,15.915-1.044,22.83-2.74v21.264c-6.001,1.827-15.524,3.131-24.265,3.131C532.788,864.052,515.96,849.441,515.96,828.177z"
 		/>
-                <path class="st0" d="M681.7,822.9h16.9v32.9l-0.6,18.4h0.3l42-51.4h17.4V895h-16.9v-32.9l0.6-18.4h-0.3l-42,51.4h-17.4L681.7,822.9
-		L681.7,822.9z"/>
-                <path class="st0" d="M773,822.9h16.9v32.9l-0.6,18.4h0.3l42-51.4H849V895h-16.9v-32.9l0.6-18.4h-0.3l-42,51.4H773V822.9z
-		 M789.2,808.8v-13.7c8.4,4.3,16.1,5.9,23.6,5.9c7.7,0,15.4-1.5,23.6-5.9v13.7c-6.1,3.2-15.1,5.4-23.6,5.4
-		C804.3,814.3,795.5,812.1,789.2,808.8z"/>
-                <path class="st0" d="M891.3,880.2h9.6c3.2-6.3,5-13.7,5-24.7V823h66.9v57.2h10.7v33.1h-16.9v-18.1h-58.5v18.1h-16.9v-33.1H891.3z
-		 M956.2,880.6v-43.4h-34.1v20.1c0,10.1-1.5,17.3-4,23.3H956.2z"/>
-                <path class="st0" d="M988.3,895.7V881c2.1,0.4,4.6,1,6.8,1c6.6,0,9.9-5.7,9.9-23.3V823h65.6v72.2h-16.9v-57.5h-32.4v23.6
-		c0,27.2-8.9,35.9-23,35.9C994,897.1,990.7,896.2,988.3,895.7z"/>
-                <path class="st0" d="M1103.2,865.8l5.6-0.8v-0.3c-16.8-0.8-25.4-8.1-25.4-20.1c0-14.1,10.3-21.6,33.6-21.6h33.8v72.2h-16.9v-25
-		h-9.8c-11.7,0-16.6,2.8-20.1,10.9l-6.1,14.1h-18.3l8-17.6C1091.3,869.3,1095.3,866.9,1103.2,865.8z M1133.9,858.8v-22.6h-15.1
-		c-13.4,0-18.7,2.5-18.7,10.6c0,8.7,6.1,12,20.9,12H1133.9z"/>
-                <path class="st0" d="M1193.1,880.2h9.6c3.2-6.3,5-13.7,5-24.7V823h66.9v57.2h10.7v33.1h-16.9v-18.1h-58.5v18.1H1193v-33.1H1193.1z
-		 M1258,880.6v-43.4h-34.1v20.1c0,10.1-1.5,17.3-4,23.3H1258z"/>
-                <path class="st0" d="M1288.5,859c0-22.6,15.9-38,40.1-38c24.7,0,38.4,14.9,38.4,38.7l-59.9,8.2c3.1,9.5,11.3,14.8,25.7,14.8
-		c9.6,0,19.3-2.1,28.9-5.6v14.5c-9.1,3.5-17.9,5.4-30,5.4C1304.5,897.1,1288.5,881.3,1288.5,859z M1350.2,852.1
-		c-1.3-11-8.4-16.8-21.2-16.8c-15.2,0-23,8.1-23.2,22.9L1350.2,852.1z"/>
-                <path class="st0" d="M1395.9,837.6h-26.5v-14.7h70.1v14.7h-26.7v57.5h-16.9V837.6z"/>
-                <path class="st0" d="M1442.1,859c0-22.6,15.9-38,40.1-38c24.7,0,38.4,14.9,38.4,38.7l-59.9,8.2c3.1,9.5,11.3,14.8,25.7,14.8
-		c9.6,0,19.3-2.1,28.9-5.6v14.5c-9.1,3.5-17.9,5.4-30,5.4C1458,897.1,1442.1,881.3,1442.1,859z M1503.8,852.1
-		c-1.3-11-8.4-16.8-21.2-16.8c-15.2,0-23,8.1-23.2,22.9L1503.8,852.1z"/>
-                <path class="st0" d="M1531,822.9h16.9v32.9l-0.6,18.4h0.3l42-51.4h17.4V895h-16.9v-32.9l0.6-18.4h-0.3l-42,51.4H1531V822.9z
-		 M1547.2,808.8v-13.7c8.4,4.3,16.1,5.9,23.6,5.9c7.7,0,15.4-1.5,23.6-5.9v13.7c-6.1,3.2-15.1,5.4-23.6,5.4
-		C1562.3,814.3,1553.5,812.1,1547.2,808.8z"/>
+                <path class="st1" d="M622.934,838.092h-5.74v24.134h-25.178v-68.228h25.178v26.874h5.218c10.436,0,15.263-10.958,15.785-26.874
+		h26.352c-0.652,17.742-8.349,31.179-27.657,34.049v0.261l9.393,1.044c9.393,1.174,14.089,6.522,16.959,15.263l6.131,17.611h-28.308
+		l-3.914-13.828C634.936,840.831,630.239,838.092,622.934,838.092z"/>
+                <path class="st1" d="M674.987,793.998h25.178v20.481l-1.174,16.959h0.261l28.83-37.44h24.395v68.228h-25.178v-20.612l1.305-16.959
+		h-0.261l-28.83,37.571h-24.525V793.998z"/>
+                <path class="st1" d="M764.35,793.998h25.178v20.481l-1.174,16.959h0.261l28.83-37.44h24.395v68.228h-25.178v-20.612l1.305-16.959
+		h-0.261l-28.83,37.571H764.35V793.998z M781.31,781.866v-16.307c8.219,3.914,15.524,5.479,23.612,5.479s15.394-1.566,23.613-5.479
+		v16.307c-6.523,3.001-14.872,4.696-23.613,4.696S787.832,784.866,781.31,781.866z"/>
+                <path class="st1" d="M881.761,840.57h10.045c2.609-5.218,4.044-11.48,4.044-20.22v-26.352h69.663v46.572h11.22v39.137h-25.178
+		v-17.481h-44.615v17.481h-25.178V840.57z M941.379,841.875v-28.7h-22.438v13.306c0,6.392-1.044,11.349-2.74,15.393H941.379z"/>
+                <path class="st1" d="M981.691,862.487v-21.264c1.696,0.391,3.653,0.783,5.74,0.783c5.218,0,8.61-4.305,8.61-18.525v-29.483h69.141
+		v68.228h-25.178V814.61h-21.003v17.09c0,24.004-8.741,32.353-23.874,32.353C989.257,864.052,984.169,863.139,981.691,862.487z"/>
+                <path class="st1" d="M1093.36,833.917l7.305-0.783v-0.261c-16.437-0.783-25.047-7.175-25.047-19.177
+		c0-12.524,9.654-19.83,31.831-19.83h39.266v68.358h-25.178v-22.569h-5.87c-7.697,0-11.089,2.74-13.698,9.393l-4.957,13.176h-25.83
+		l6.784-16.959C1081.228,837.178,1085.533,834.961,1093.36,833.917z M1121.538,827.133v-16.176h-10.045
+		c-8.48,0-12.393,1.957-12.393,7.827c0,5.871,4.175,8.349,13.437,8.349H1121.538z"/>
+                <path class="st1" d="M1186.637,840.57h10.045c2.609-5.218,4.044-11.48,4.044-20.22v-26.352h69.663v46.572h11.219v39.137h-25.178
+		v-17.481h-44.615v17.481h-25.178V840.57z M1246.254,841.875v-28.7h-22.438v13.306c0,6.392-1.044,11.349-2.74,15.393H1246.254z"/>
+                <path class="st1" d="M1284.739,827.916c0-21.917,15.002-35.744,39.658-35.744c24.525,0,38.223,13.046,38.876,35.744l-51.66,6.654
+		c2.609,6.522,9.132,10.045,19.96,10.045c8.609,0,18.002-1.956,26.873-5.218v19.308c-10.045,3.653-19.046,5.349-30.396,5.349
+		C1300.263,864.052,1284.739,850.094,1284.739,827.916z M1339.661,823.22c-0.783-7.697-5.349-11.61-14.089-11.61
+		c-10.176,0-15.263,5.479-15.263,15.524v0.261L1339.661,823.22z"/>
+                <path class="st1" d="M1389.496,814.479h-23.612v-20.612h72.272v20.612h-23.482v47.747h-25.178V814.479z"/>
+                <path class="st1" d="M1441.029,827.916c0-21.917,15.002-35.744,39.658-35.744c24.525,0,38.223,13.046,38.876,35.744l-51.66,6.654
+		c2.609,6.522,9.132,10.045,19.96,10.045c8.609,0,18.002-1.956,26.873-5.218v19.308c-10.045,3.653-19.046,5.349-30.396,5.349
+		C1456.553,864.052,1441.029,850.094,1441.029,827.916z M1495.95,823.22c-0.783-7.697-5.349-11.61-14.089-11.61
+		c-10.176,0-15.263,5.479-15.263,15.524v0.261L1495.95,823.22z"/>
+                <path class="st1" d="M1527.651,793.998h25.178v20.481l-1.174,16.959h0.261l28.83-37.44h24.395v68.228h-25.178v-20.612l1.305-16.959
+		h-0.261l-28.83,37.571h-24.525V793.998z M1544.61,781.866v-16.307c8.219,3.914,15.524,5.479,23.612,5.479
+		s15.394-1.566,23.613-5.479v16.307c-6.523,3.001-14.872,4.696-23.613,4.696C1559.482,786.562,1551.133,784.866,1544.61,781.866z"/>
               </g>
             </g>
             </svg></a> </div>
@@ -782,28 +823,6 @@
 <script src="assets/js/main.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script> 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  
-  if ('fonts' in document) {
-    
-    document.fonts.ready.then(function() {
-      console.log('Все шрифты загружены!');
-      
-      const textElements = document.querySelectorAll('.animate-text-on-load');
-      
-      textElements.forEach(element => {
-        element.classList.add('font-is-ready');
-      });
-      
-    });
-  } else {
-    document.querySelectorAll('.animate-text-on-load').forEach(element => {
-        element.classList.remove('animate-text-on-load');
-    });
-  }
-});
-</script> 
-<script>
 SmoothScroll({
     animationTime    : 1000,
     stepSize         : 75,
@@ -839,7 +858,7 @@ $(function() {
   
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
-        if (scroll >= 100) {
+        if (scroll >= 120) {
             header.addClass("scrolled");
         } else {
             header.removeClass("scrolled");
@@ -870,24 +889,189 @@ for (i = 0; i < coll.length; i++) {
 	}
 </script> 
 <script>
-  let lastScrollTop = 0;
-  const logo = document.getElementById('animated-logo');
-  
-  const threshold = 15; 
+    let lastScrollTop = 0;
+    const logo = document.getElementById('animated-logo');
 
-  window.addEventListener('scroll', function() {
-    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+    window.addEventListener('scroll', function() {
+      let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
 
-    if (Math.abs(currentScroll - lastScrollTop) > threshold) {
       if (currentScroll > lastScrollTop) {
         logo.classList.add('scroll-down');
       } else {
         logo.classList.remove('scroll-down');
       }
 
-      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; 
+    }, false);
+  </script> 
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const track = document.getElementById('galleryTrack');
+  const viewport = document.getElementById('galleryViewport');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const items = document.querySelectorAll('.gallery-item');
+
+  let currentIndex = 0;
+  const totalItems = items.length;
+
+  let isDragging = false;
+  let startX = 0;
+  let currentTranslate = 0;
+  let prevTranslate = 0;
+
+  items.forEach(item => {
+    item.ondragstart = () => false;
+  });
+
+  function getTrackGap() {
+    const trackStyle = window.getComputedStyle(track);
+    return parseFloat(trackStyle.gap) || 0;
+  }
+
+  function getMaxScroll() {
+    const gap = getTrackGap();
+    const totalTrackWidth = Array.from(items).reduce((sum, item) => sum + item.getBoundingClientRect().width, 0) + (gap * (totalItems - 1));
+    const viewportWidth = viewport.clientWidth;
+    return Math.max(0, totalTrackWidth - viewportWidth);
+  }
+
+  function getOffsetForIndex(index) {
+    const gap = getTrackGap();
+    let offset = 0;
+    for (let i = 0; i < index; i++) {
+      offset += items[i].getBoundingClientRect().width + gap;
     }
-  }, false);
+    return Math.min(offset, getMaxScroll());
+  }
+
+  function updateSlider() {
+    const isMobile = window.innerWidth < 768;
+
+    if (isMobile) {
+      const targetItem = items[currentIndex];
+      if (targetItem) {
+        viewport.scrollTo({
+          left: targetItem.offsetLeft,
+          behavior: 'smooth'
+        });
+      }
+    } else {
+      const targetOffset = getOffsetForIndex(currentIndex);
+      currentTranslate = -targetOffset;
+      prevTranslate = currentTranslate;
+      track.style.transform = `translateX(${currentTranslate}px)`;
+    }
+
+    updateButtons();
+  }
+
+  function updateButtons() {
+    prevBtn.disabled = currentIndex === 0;
+
+    const isMobile = window.innerWidth < 768;
+    if (isMobile) {
+      nextBtn.disabled = viewport.scrollLeft + viewport.clientWidth >= viewport.scrollWidth - 10;
+    } else {
+      const maxScroll = getMaxScroll();
+      const currentOffset = Math.abs(currentTranslate);
+      nextBtn.disabled = currentOffset >= maxScroll - 5;
+    }
+  }
+
+  viewport.addEventListener('mousedown', (e) => {
+    if (window.innerWidth < 768) return; 
+    if (e.button !== 0) return;
+
+    isDragging = true;
+    startX = e.clientX;
+    prevTranslate = currentTranslate;
+
+    viewport.classList.add('is-dragging');
+    track.classList.add('is-dragging');
+  });
+
+  window.addEventListener('mousemove', (e) => {
+    if (!isDragging || window.innerWidth < 768) return;
+
+    if (e.buttons !== 1) {
+      stopDragging();
+      return;
+    }
+
+    const currentX = e.clientX;
+    const diffX = currentX - startX;
+
+    let targetTranslate = prevTranslate + diffX;
+    const maxScroll = getMaxScroll();
+
+    if (targetTranslate > 0) {
+      targetTranslate = targetTranslate * 0.2;
+    } else if (targetTranslate < -maxScroll) {
+      targetTranslate = -maxScroll + (targetTranslate + maxScroll) * 0.2;
+    }
+
+    currentTranslate = targetTranslate;
+    track.style.transform = `translateX(${currentTranslate}px)`;
+  });
+
+  function stopDragging() {
+    if (!isDragging) return;
+
+    isDragging = false;
+    viewport.classList.remove('is-dragging');
+    track.classList.remove('is-dragging');
+
+    const movedBy = currentTranslate - prevTranslate;
+
+    if (movedBy < -40 && currentIndex < totalItems - 1) {
+      currentIndex++;
+    } else if (movedBy > 40 && currentIndex > 0) {
+      currentIndex--;
+    }
+
+    updateSlider();
+  }
+
+  window.addEventListener('mouseup', stopDragging);
+
+  nextBtn.addEventListener('click', () => {
+    if (currentIndex < totalItems - 1) {
+      currentIndex++;
+      updateSlider();
+    }
+  });
+
+  prevBtn.addEventListener('click', () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateSlider();
+    }
+  });
+
+  viewport.addEventListener('scroll', () => {
+    if (window.innerWidth >= 768) return;
+
+    const scrollLeft = viewport.scrollLeft;
+    let closestIndex = 0;
+    let minDiff = Infinity;
+
+    items.forEach((item, index) => {
+      const diff = Math.abs(item.offsetLeft - scrollLeft);
+      if (diff < minDiff) {
+        minDiff = diff;
+        closestIndex = index;
+      }
+    });
+
+    currentIndex = closestIndex;
+    updateButtons();
+  }, { passive: true });
+
+  window.addEventListener('resize', updateSlider);
+
+  updateSlider();
+});
 </script>
 </body>
 </html>
