@@ -34,9 +34,6 @@
 <meta name="msapplication-TileImage" content="imgs/support/mstile-144x144.png">
 <link rel="shortcut icon" href="imgs/support/favicon.ico">
 <style>
-body {
-	background-color: var(--primary-grey);
-}
 .svg, svg {
 	shape-rendering: geometricPrecision;
 	text-rendering: geometricPrecision;
@@ -47,16 +44,6 @@ body {
 .video-desktop, .img-desktop {
 	display: block;
 }
-@media (max-width: 768px) {
-.video-mobile, .img-mobile {
-	display: block;
-}
-.video-desktop, .img-desktop {
-	display: none;
-}
-}
-</style>
-<style>
 .first-logo, .second-logo {
 	transition: opacity 0s ease-in-out;
 }
@@ -71,6 +58,17 @@ body {
 }
 .scroll-down .second-logo {
 	opacity: 1;
+}
+@media (max-width: 768px) {
+.video-mobile, .img-mobile {
+	display: block;
+}
+.video-desktop, .img-desktop {
+	display: none;
+}
+.logo-container {
+	margin-top: 0.1rem;
+}
 }
 </style>
 </head><body class="is-preload">
@@ -256,7 +254,7 @@ body {
           </div>
         </div>
         <div class="col-4 col-12-small">
-          <div class="box color_box_dorange" style="box-shadow: inset 0 0 0 0px var(--primary-mblue);">
+          <div class="box color_box_blue" style="box-shadow: inset 0 0 0 0px var(--primary-mblue);">
             <h2 class="special blk_tx nols_s">Творческие мастер-классы</h2>
             <hr class="block1">
             <span class="image fit"><img src="imgs/tw_features_mc.svg" onContextMenu="return false;" alt="Тини Вини | Творческие мастер-классы" /></span>
@@ -361,7 +359,7 @@ body {
       <div class="row">
         <div class="col-12 col-12-small">
           <div class="box_banner noborderradus" style="background-image:url(imgs/tw_reading_cat_books_bg.svg); background-size: 100%;">
-            <h1 class="special blk_tx t_color_y" style="line-height:.8;"><span class="t_color_w">Идете<br>
+            <h1 class="blk_tx t_color_y" style="line-height:.8;"><span class="t_color_w">Идете<br>
               во 2 класс?</span><br>
               Интенсив<br>
               по чтению<br>
@@ -504,7 +502,7 @@ body {
   
   <!-- BRAND EXPERIANCE -->
   
-  <section class="wrapper style1 invert color_mp align-left">
+  <section class="wrapper style1 color_pink align-left">
     <div class="inner">
       <div class="row">
         <div class="col-12 col-12-small">
@@ -512,33 +510,19 @@ body {
         </div>
       </div>
       <div class="row">
-        <div class="col-5 col-12-small">
-          <h1 class="special xbd_tt" style="line-height:0.9">Основы оформления</h1>
-          <hr class="block2">
-          <ul class="xbd_tx upup">
-            <li>
-              <h5><a href="https://webehoove.github.io/teenyweeny/brand-experience/social-media/" class="button npurple small">Социальные сети</a></h5>
-            </li>
-            <li>
-              <h5><a href="https://webehoove.github.io/teenyweeny/brand-experience/banners/" class="button npurple small">Банеры</a></h5>
-            </li>
-            <li>
-              <h5><a href="https://webehoove.github.io/teenyweeny/brand-experience/layout-design/" class="button npurple small">Компоновка</a></h5>
-            </li>
+        <div class="col-12 col-12-small">
+          <h1 class="special_one blk_tx nols_s" style="line-height:0.9">Мы в соцсетях</h1>
+          <hr class="mini">
+          <ul class="sm">
+            <li><a href="https://vk.ru/english4younglearners" target="new" name="VK"><img src="imgs/icons/vk_icon_b.svg" onContextMenu="return false;" alt="Тини Вини | VK" /></a></li>
+            <li><a href="https://t.me/teenyweenyenglish" target="new" name="Telegram"><img src="imgs/icons/teleg_icon_b.svg" onContextMenu="return false;" alt="Тини Вини | Telegram" /></a></li>
           </ul>
-          <hr class="block1">
-          <h3>Принципы дизайна являются краеугольными камнями нашей визуальной идентичности. Они представляют собой визуальное воплощение этики и ценностей нашей компании.</h3>
-          <hr class="block1">
-          <p>Обеспечивая соответствие всего дизайна нашим стандартам оформления, можно гарантировать, что бренд передает желаемое сообщение.</p>
-          <hr class="block1">
+          <hr class="mini">
         </div>
-        <div class="col-7 col-12-small"> <span class="image fit rounded"><img src="brand-experience/social-media/imgs/twe_sm_backing_text3.jpg" onContextMenu="return false;" alt="Teeny Weeny English" /></span> 
-          <!-- <span class="image fit"><video autoplay loop muted playsinline style="filter: brightness(100%) contrast(108%);">
-            <source id="videoSource" src="brand-experience/social-media/videos/twe_text_backing_spin.mp4" type="video/mp4">
-          </video></span> -->
-          <hr class="block1">
-          <a href="https://webehoove.github.io/teenyweeny/brand-experience/" class="button npurple large_a_npurple xbd_tt">Основы оформления</a>
-          </ul>
+      </div>
+      <div class="row">
+        <div class="col-3 col-12-small">
+          <span class="image fit"><a href="https://vk.ru/english4younglearners" target="new" name="VK"><img src="imgs/sm/tw_vk_img_01.jpg" onContextMenu="return false;" alt="Тини Вини | VK" /></a></span>
         </div>
       </div>
       <div class="row">
@@ -560,8 +544,7 @@ body {
         <div class="col-5 col-12-small">
           <div class="logotype_lockup_b logo-container"> <a href="https://webehoove.github.io/teenyweeny/"><svg id="animated-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1607 913.3" width="100%">
             <style>
-             .st0{fill:var(--primary-white);}
-			 .first-logo{fill:var(--primary-white);}
+             .st0{fill:var(--primary-blue);}
             </style>
             
             <!-- 1 -->
