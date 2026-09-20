@@ -939,10 +939,17 @@ ul.sm {
 }
 ul.sm li {
 	display: inline-block;
-	padding-right: 0.25rem;
+	padding-right: 0.35rem;
 }
-ul.sm img {
-	width: 3rem;
+ul.sm li img {
+	-moz-transition: transform 0.2s ease-in-out;
+	-webkit-transition: transform 0.2s ease-in-out;
+	-ms-transition: transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out;
+	width: 3.5rem;
+}
+ul.sm li:hover img {
+	transform: scale(1.05);
 }
  @media screen and (max-width: 736px) {
 ul li {

@@ -103,9 +103,6 @@ ul.bottommenu_hor li {
 .goup:hover img {
 	transform: scale(1.1);
 }
-.goup a:active .goup a:visited {
-	opacity: 1;
-}
 ul.goup li {
 	padding: 0.25rem 0.5rem 1rem 0;
 }
